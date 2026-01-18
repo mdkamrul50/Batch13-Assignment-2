@@ -56,3 +56,149 @@ body {
   font-size: 16px;
   font-weight: 600;
 }
+
+/* hero section */
+
+#hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 760px;
+  background-image: url('./assets/hero-bg.png');
+  background-size: auto;
+  background-position: center;
+}
+
+#hero-section img {
+  height: 350px;
+  width: 350px;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.new {
+  font-size: 18px;
+  font-weight: 600;
+  position: absolute;
+  right: 776px;
+  top: 223px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+  width: 75px;
+  border-radius: 30px;
+  background-color: #00ff88;
+}
+
+#hero-section .hero-img-2 {
+  position: absolute;
+  margin-top: 70px;
+  height: 210px;
+  width: 170px;
+}
+
+.hero-section-2 {
+  text-align: center;
+  height: 168px;
+  width: 550px;
+}
+
+.hero-head h2 {
+  font-size: 65px;
+  font-weight: 800;
+  line-height: 70px;
+  color: rgb(245, 241, 241);
+  padding-bottom: 10px;
+}
+
+.hero-head p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(220, 217, 217);
+  padding-bottom: 23px;
+}
+
+.listen {
+  height: 44px;
+  width: 200px;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.subscribe-btn {
+  height: 44px;
+  width: 147px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #00ff88;
+  border-radius: 30px;
+  border: 1px solid #00ff88;
+  background-color: transparent;
+}
+
+/* about section */
+
+#about-section {
+  background-color: rgba(26, 11, 46, 1);
+  height: 645px;
+  padding: 50px 200px 120px 200px;
+}
+
+.about-heading {
+  text-align: center;
+}
+
+.about-heading h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  color: rgb(242, 240, 240);
+  padding-bottom: 16px;
+}
+
+.about-heading p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 35px;
+  color: rgb(220, 217, 217);
+  padding-bottom: 25px;
+}
+
+.line{
+  height: 1px;
+  margin: 82px 0px 80px 0px;
+  
+  background-color: rgba(206, 187, 187, 0.27);
+}
+
+.count {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.count .count-box {
+  height: 100px;
+  width: 240px;
+}
+
+.count .count-box span {
+  font-size: 48px;
+  font-weight: 900;
+  color: #00ff88;
+  line-height: 60px;
+}
+
+.count .count-box p {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: white;
+  text-transform: uppercase;
+  padding-top: 16px;
+}
