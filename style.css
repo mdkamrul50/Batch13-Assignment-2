@@ -300,12 +300,14 @@ body {
 /* featured-section */
 
 #featured-section {
-  height: 900px;
+  height: auto;
+  padding-bottom: 120px;
   background-color: rgba(26, 11, 46, 1);
 }
 
 .featured-contain {
   padding: 120px 200px 120px 200px;
+  height: auto;
 }
 
 .feature-heading h2 {
@@ -316,12 +318,12 @@ body {
   color: white;
 }
 
-
 /* feature common style */
 .feature-video-grup {
   display: flex;
   height: 440px;
   gap: 27px;
+  padding-top: 30px;
 }
 
 .video {
@@ -353,4 +355,103 @@ body {
   font-weight: 600;
   color: #00ff88;
   padding: 12px 24px 24px 24px;
+}
+
+.hoxt-section {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.hoxt-section h2 {
+  text-align: center;
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.host-box {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  padding: 40px;
+  gap: 24px;
+  background-color: rgba(53, 17, 101, 0.4);
+  border-radius: 40px;
+}
+
+.host-box div > h4 {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  padding-bottom: 16px;
+}
+
+.host-box div > p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(225, 222, 222, 0.668);
+}
+
+.host-social {
+  padding-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.host-social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  gap: 5px;
+}
+
+footer {
+  height: auto;
+  background-image: url('./assets/footer-bg.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px;
+  width: auto;
+}
+
+.footer-logo {
+text-align: center;
+padding-bottom: 34px;
+}
+.footer-logo p {
+  font-size: 60px;
+  font-weight: bolder;
+  color: rgb(219, 216, 216);
+}
+
+.footer-logo p span {
+  background: linear-gradient(11deg, #f7e93f, #fb09b4, #9100f8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-social-media{
+  position: relative;
+  display: flex;
+  gap: 80px;
+  padding-bottom: 34px;
+color: rgba(250, 250, 250, 1);
+font-size: 16px;
+font-weight: 500;
+}
+
+.copyright{
+  text-align: center;
+  color:  rgba(250, 250, 250, 0.64);
+  font-size: 14.5px;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
