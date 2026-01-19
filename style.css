@@ -222,14 +222,13 @@ body {
 
 .box-parent {
   height: 783px;
-  width: 1200px;
+  width: 1503px;
   display: grid;
   margin: 0 auto;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 30px;
 }
-
 
 /* grid box 1 */
 .container-box1 {
@@ -239,12 +238,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-border-radius: 40px;
+  border-radius: 40px;
 }
 
 /* box er common class */
 
- .h4-common{
+.h4-common {
   font-size: 24px;
   font-weight: 700;
   color: white;
@@ -252,14 +251,14 @@ border-radius: 40px;
   padding-bottom: 16px;
 }
 
- .p-common{
+.p-common {
   font-size: 16px;
   font-weight: 400;
-  color:rgb(199, 186, 186) ;
+  color: rgb(199, 186, 186);
   line-height: 26px;
 }
 
- .img-common {
+.img-common {
   height: 60px;
   width: 60px;
 }
@@ -272,7 +271,6 @@ border-radius: 40px;
   padding: 40px;
   border-radius: 40px;
 }
-
 
 /* grid box 3 */
 .container-box3 {
@@ -291,10 +289,68 @@ border-radius: 40px;
 }
 
 /* grid box 5 */
-.container-box5{
-    grid-column: span 1;
-    grid-row: span 1;
+.container-box5 {
+  grid-column: span 1;
+  grid-row: span 1;
   background-color: rgba(53, 17, 101, 0.4);
   padding: 40px;
   border-radius: 40px;
+}
+
+/* featured-section */
+
+#featured-section {
+  height: 900px;
+  background-color: rgba(26, 11, 46, 1);
+}
+
+.featured-contain {
+  padding: 120px 200px 120px 200px;
+}
+
+.feature-heading h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+  color: white;
+}
+
+
+/* feature common style */
+.feature-video-grup {
+  display: flex;
+  height: 440px;
+  gap: 27px;
+}
+
+.video {
+  border-radius: 24px 24px 0px 0px;
+}
+
+.feature-video {
+  background-color: rgba(37, 13, 68, 1);
+  border-radius: 24px;
+}
+
+.feature-h4 {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(237, 232, 232);
+  padding: 24px 24px 12px 24px;
+}
+
+.feature-p {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0px 24px;
+  color: rgba(231, 225, 225, 0.706);
+}
+
+.time {
+  height: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #00ff88;
+  padding: 12px 24px 24px 24px;
 }
