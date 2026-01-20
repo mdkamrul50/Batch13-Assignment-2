@@ -515,14 +515,17 @@ footer {
     height: 125px;
     width: 95px;
   }
+.btn-gup{
+  padding-left: 2px;
+}
 
   .hero-head p {
     font-size: 16px;
     font-weight: 400;
     color: rgb(220, 217, 217);
     padding-bottom: 23px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 90px;
+    padding-right: 100px;
   }
 
   #about-section {
@@ -629,7 +632,8 @@ padding: 40px 20px 40px 20px;
 
 footer{
    padding: 40px 20px 40px 20px;
- background-size: 150%;
+ background-size: 206%;
+ width: auto;
 
 }
 .footer-social-media{
